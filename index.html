@@ -4,35 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./resources/css/reset.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="./resources/css/style.css">
   <title>Match Game</title>
 </head>
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-3">
+      <div id="instructions" class="col-12 col-lg-3">
          <h1>Match Game</h1>
          <h3>Rules</h3> 
          <p>Click on a card to reveal the number on the other side. Click on a second card to try and find a match to the first. If you succeed, the pair will be removed from play. If not, try again!</p>
          <h3>How To Win</h3> 
          <p>You win when all pairs have been found.</p>
+
+         <button id="start-game" class="btn btn-primary btn-lg">Start New Game</button>
       </div>
       <div id="game" class="col-12 col-lg-9">
-        <div class="row">
-          <div class="col-3 card"></div>
-          <div class="col-3 card"></div>
-          <div class="col-3 card"></div>
-          <div class="col-3 card"></div>
-          <div class="col-3 card"></div>
-          <div class="col-3 card"></div>
-          <div class="col-3 card"></div>
-          <div class="col-3 card"></div>
-          <div class="col-3 card"></div>
-          <div class="col-3 card"></div>
-          <div class="col-3 card"></div>
-          <div class="col-3 card"></div>
-        </div><!-- .row -->
       </div><!-- #game -->
     </div><!-- .row -->
   </div><!-- .container -->

@@ -1,0 +1,35 @@
+body {
+  color: #204056;
+  background-color: rgb(255,242,242);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  padding: 5.25rem 0;
+}
+
+#instructions h1 {
+  font-size: 2.5rem;
+  color: rgb(32,64,86);
+  font-weight: 700;
+}
+#instructions h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+#instructions p {
+  color: rgb(74,74,74);
+}
+
+#game .card {
+  background-color: rgb(32, 64, 86);
+  border: 4px solid #fff;
+  border-radius: 8px;
+  height: 12.5rem;
+  color: rgb(255,255,255);
+  font-weight: 900;
+  font-size: 7rem;
+  align-items: center;
+  justify-content: center;
+}
+#game .card:hover {
+  cursor: pointer;
+}
